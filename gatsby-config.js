@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Leo Qiu`,
     author: `Leo Qiu`,
-    description: `An extension of the gatsby starter blog, with support for MDX`,
+    description: `A blog post on all things web development related. React, Typescript, Graphql, Express, Go and etc`,
     siteUrl: `https://gatsby-starter-blog-mdx-demo.netlify.com/`,
     social: {
       twitter: `leog0esger`,
@@ -120,8 +120,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Blog by Leo Qiu`,
+        short_name: `LeoQiu`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

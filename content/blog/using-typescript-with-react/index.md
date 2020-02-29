@@ -9,7 +9,7 @@ In this blog, I will try to summarize a few key differences between developing i
 
 ## 1. Types
 
-Probably the
+I do not have any experience using staticly typed langauage. I was not really sure of the benefits either, but after a few weeks of using it, it was surely mind blowing. I am sure we have all done this in Javascript. Write a few lines of code, run it in browser, hold our breath, and check the console if it screams at us. Typescript does not solve that problem entirely, but it covers 80%-90% of the case. It catches most of the error during development in vsCode.
 
 ## 2. Build
 
