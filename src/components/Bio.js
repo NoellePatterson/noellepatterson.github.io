@@ -29,9 +29,15 @@ function Bio() {
             /> */}
             <p>
               I live and work in Reno building{' '}
-              <a href={`https://foodnome.com`}>foodnome.com</a>.{` `} You can
-              find me on
-              <a href={`https://twitter.com/${social.twitter}`}> Twitter</a>.
+              <a target="_blank" href={`https://foodnome.com`}>
+                foodnome
+              </a>
+              .{` `} You can find me on
+              <a target="_blank" href={`https://twitter.com/${social.twitter}`}>
+                {' '}
+                Twitter
+              </a>
+              .
             </p>
           </div>
         )

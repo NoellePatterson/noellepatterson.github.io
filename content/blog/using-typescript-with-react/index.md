@@ -1,9 +1,10 @@
 ---
 title: Using Typescript with React
 date: '2020-02-29T22:12:03.284Z'
+status: 'published'
 ---
 
-It has been about two years since I started using Typescript instead of Javascript in web development especially in React. Coming directly with JS prior to us, I have always found the process of simply debugging difficult (I type something first, wait for webpack dev server to refresh, and finally receive the error message). I started trying Typescript mostly because I need a tool that has basic type support to speed up the development process.
+It has been about two years since I started using Typescript instead of Javascript in web development especially in React. Prior to using TS, I have always found the process of debugging in JS very difficult (I type something first, wait for webpack dev server to refresh, and finally receive the error message). I started trying Typescript mostly because I need a tool that has basic type support to speed up the development process.
 
 In this post, I will walk through a simple React project built with Typescript which will include the following topics:
 
@@ -15,7 +16,7 @@ In this post, I will walk through a simple React project built with Typescript w
 
 ## 1. Typescript 101
 
-One of the key benefits of Typescript to me is type annotation. Initially, coming straight from JS, using type annotation was rather a struggle. The syntax was unfamiliar and time consuming to write. It took me about one month of using it to start to appreciate its power and why many developers much prefer a [statically typed languages](https://en.wikipedia.org/wiki/Type_system).
+One of the key benefits of Typescript to me is type annotation. Since my background has no [statically typed languages](https://en.wikipedia.org/wiki/Type_system), learning type annotation was rather a struggle. The syntax was unfamiliar and time consuming to write. It took me about one month of using it to start to appreciate its power and why many developers much prefer a statically typed language. There are lots of differences between a statically typed languages and TS, but I will not discuss them here :)
 
 Here I will create a simple example on how to convert a Javascript function to Typescript while explaining the benefits of type annotation.
 
@@ -29,7 +30,7 @@ const sum = (num1, num2) => {
 
 To run this function, we can do `sum(1, 2)` which will output `3`. But what if we put in `sum("1",2)`? The code will output `"12"`(notice it is a string) without an error message. Down the line where we are expecting `3`, we will see a silent `"12"` being used.
 
-Once I finally trace down the error, we could rewrite the function again.
+At this point, we could try fix the bug with something like this:
 
 ```js
 const sum = (num1, num2) => {
@@ -37,7 +38,7 @@ const sum = (num1, num2) => {
 }
 ```
 
-But what if we try to run `sum("abc", 2)`. As we see, it would be ideal to force both `num1` and `num2` to be a number. Warn us the potential error if we submit without a number. This is where Typescript comes in.
+But what if we try to run `sum("abc", 2)`. As we see, it would be ideal to force both `num1` and `num2` to be a number. Warn us the potential error if we excute the function without a number. This is where Typescript comes in.
 
 ```ts
 const sumTypescript = (num1: number, num2: number) => {
@@ -55,10 +56,63 @@ Even better, if you are using an editor like VSCode, you will see the red warnin
 
 ![sum error](./sum-error.png)
 
-There are many benefits of using Typescript, you can read the documentation [here](https://www.typescriptlang.org/docs/home.html) or go through [Tutorials Point](https://www.tutorialspoint.com/typescript/index.htm).
+There are many benefits of using Typescript besides type annotation, you can read the documentation [here](https://www.typescriptlang.org/docs/home.html) or go through [Tutorials Point](https://www.tutorialspoint.com/typescript/index.htm).
 
-## 2. Build
+## 2. Using Create React App - Typescript
 
-I moved `App.js` file to a different folder, it seems like that is not allowed. It needs to be `export default` and it has to be located in the root folder.
+To create a React app using Typescript is very simple.
 
-## 3. With Router
+```bash
+npx create-react-app my-app --template typescript
+# or
+yarn create react-app my-app --template typescript
+```
+
+The rest is very similiar to using Javascript. In the next section, we will talk about how to add type annotation for `props`.
+
+If you need more information on how to set it up, you can refer to the [cheatsheet](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet#reacttypescript-cheatsheets).
+
+## 3. Ejecting from Create React App - Typescript or Javascript
+
+This is rather a side note, I do not recommend ejecting from CRA for JS or TS. Mostly because the script files are being actively maintained. You loss those support once you eject from the project. But if there is some plugins you really need, ejecting might be the only way.
+
+I needed a babel plugin optional chaining, and CRA did not support out of the box at the moment. I ejected a few weeks after they pushed another release, and I could no longer recieve the regular updates.
+
+In the case you have to have additional `babel plugins` and eject, you could add the plugin in the `package.json` file. In the example below, I added `optional chaining` and `nullish coalescing`, which both are supported by CRA 😭.
+
+```json
+{
+  "babel": {
+    "presets": ["react-app"],
+    "plugins": [
+      "@babel/plugin-proposal-optional-chaining",
+      "@babel/plugin-proposal-nullish-coalescing-operator"
+    ]
+  }
+}
+```
+
+## 4. Type annotation in an React app
+
+In a React app, it is common to use [prop-types](https://www.npmjs.com/package/prop-types) to enforce certain data types are being passed into a child component. We can acheive the same thing by using type annotation in Typescript.
+
+For example if we have a functional component for a todos list, and we want to enforce this child component `List` receive an array with todos.
+
+```js
+import React from 'react'
+import PropTypes from 'prop-types'
+
+export const List = props => {
+  return (
+    <ul>
+      {props.todos.map((todo, index) => (
+        <li key={index}>{todo}</li>
+      ))}
+    </ul>
+  )
+}
+
+List.propTypes = {
+  todos: PropTypes.array.isRequired,
+}
+```
