@@ -6,18 +6,20 @@ import { FaMoon, FaSun } from 'react-icons/fa'
 
 export const ToggleBtn = () => (
   <ThemeToggler>
-    {({ theme, toggleTheme }) => (
-      <label>
-        <Toggle
-          defaultChecked={theme === 'dark'}
-          className="custom-classname"
-          icons={{
-            checked: <FaMoon color="yellow" />,
-            unchecked: <FaSun color="yellow" />,
-          }}
-          onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
-        />
-      </label>
-    )}
+    {({ theme, toggleTheme }) => {
+      return (
+        <label>
+          <Toggle
+            defaultChecked={theme === 'dark' || !theme}
+            className="custom-classname"
+            icons={{
+              checked: <FaMoon color="yellow" />,
+              unchecked: <FaSun color="yellow" />,
+            }}
+            onChange={e => toggleTheme(theme === 'light' ? 'dark' : 'light')}
+          />
+        </label>
+      )
+    }}
   </ThemeToggler>
 )
