@@ -17,27 +17,15 @@ function Bio() {
               marginBottom: rhythm(2.5),
             }}
           >
-            {/* <Image
-              fixed={data.avatar.childImageSharp.fixed}
-              alt={author}
-              style={{
-                marginRight: rhythm(1 / 2),
-                marginBottom: 0,
-                minWidth: 50,
-                borderRadius: `100%`,
-              }}
-            /> */}
             <p>
-              I live and work in Reno building{' '}
+              <a target="_blank" href={`https://twitter.com/${social.twitter}`}>
+                Leo Qiu
+              </a>{' '}
+              lives, codes(
               <a target="_blank" href={`https://foodnome.com`}>
                 foodnome
               </a>
-              .{` `} You can find me on
-              <a target="_blank" href={`https://twitter.com/${social.twitter}`}>
-                {' '}
-                Twitter
-              </a>
-              .
+              ) and climbs in Reno with Noelle and Roxy🐶.
             </p>
           </div>
         )

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Leo Qiu`,
+    title: `Leogoesger`,
     author: `Leo Qiu`,
     description: `A blog post on all things web development related. React, Typescript, Graphql, Express, Go and etc`,
     siteUrl: `https://gatsby-starter-blog-mdx-demo.netlify.com/`,
@@ -9,6 +9,7 @@ module.exports = {
     },
   },
   plugins: [
+    'gatsby-plugin-dark-mode',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
