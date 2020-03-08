@@ -8,17 +8,15 @@ export const ToggleBtn = () => (
   <ThemeToggler>
     {({ theme, toggleTheme }) => {
       return (
-        <label>
-          <Toggle
-            defaultChecked={theme === 'dark' || !theme}
-            className="custom-classname"
-            icons={{
-              checked: <FaMoon color="yellow" />,
-              unchecked: <FaSun color="yellow" />,
-            }}
-            onChange={e => toggleTheme(theme === 'light' ? 'dark' : 'light')}
-          />
-        </label>
+        <Toggle
+          checked={theme === 'dark' || !theme}
+          className="custom-classname"
+          icons={{
+            checked: <FaMoon color="yellow" />,
+            unchecked: <FaSun color="yellow" />,
+          }}
+          onChange={e => toggleTheme(theme === 'light' ? 'dark' : 'light')}
+        />
       )
     }}
   </ThemeToggler>

@@ -6,6 +6,10 @@ Wordpress2016.overrideThemeStyles = () => {
     a: {
       color: 'var(--textLink)',
     },
+    blockquote: {
+      color: 'var(--blockQuote)',
+      borderLeft: 'var(--blockQuoteBorder)',
+    },
     // gatsby-remark-autolink-headers - don't underline when hidden
     'a.anchor': {
       boxShadow: 'none',

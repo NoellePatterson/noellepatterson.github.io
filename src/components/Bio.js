@@ -21,11 +21,11 @@ function Bio() {
               <a target="_blank" href={`https://twitter.com/${social.twitter}`}>
                 Leo Qiu
               </a>{' '}
-              lives, codes(
+              lives, codes (
               <a target="_blank" href={`https://foodnome.com`}>
                 foodnome
               </a>
-              ) and climbs in Reno with Noelle and Roxy🐶.
+              ) and climbs in Reno with Noelle and Roxy 🐶.
             </p>
           </div>
         )
