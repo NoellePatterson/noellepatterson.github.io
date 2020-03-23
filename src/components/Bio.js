@@ -1,6 +1,7 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Image from 'gatsby-image'
+import { Link } from 'gatsby'
 
 import { rhythm } from '../utils/typography'
 
@@ -18,14 +19,8 @@ function Bio() {
             }}
           >
             <p>
-              <a target="_blank" href={`https://twitter.com/${social.twitter}`}>
-                Leo Qiu
-              </a>{' '}
-              lives, codes (
-              <a target="_blank" href={`https://foodnome.com`}>
-                foodnome
-              </a>
-              ) and climbs in Reno with Noelle and Roxy 🐶.
+              Leo Qiu lives, codes and climbs in Reno with Noelle and Roxy 🐶.{' '}
+              <Link to="about">More about me</Link>
             </p>
           </div>
         )

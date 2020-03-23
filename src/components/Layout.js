@@ -19,24 +19,46 @@ class Layout extends React.Component {
             alignItems: 'center',
           }}
         >
-          <h1
+          <div
             style={{
-              ...scale(1.5),
-              fontSize: '1.8rem',
-              margin: 0,
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
             }}
           >
-            <Link
+            <h1
               style={{
-                boxShadow: `none`,
-                textDecoration: `none`,
-                color: `inherit`,
+                ...scale(1.5),
+                fontSize: '1.4rem',
+                margin: 0,
               }}
-              to={`/`}
             >
-              {title}
-            </Link>
-          </h1>
+              <Link
+                style={{
+                  boxShadow: `none`,
+                  textDecoration: `none`,
+                  color: `inherit`,
+                }}
+                to={`/`}
+              >
+                {title}
+              </Link>
+            </h1>
+            <a
+              href="https://twitter.com/leog0esger"
+              style={{
+                textDecoration: 'none',
+                boxShadow: 'none',
+                height: 30,
+                marginLeft: '0.4rem',
+              }}
+            >
+              <img
+                src={require('./twitter.png')}
+                style={{ width: 30, height: 30, margin: 0 }}
+              />
+            </a>
+          </div>
           <ToggleBtn />
         </div>
       )
