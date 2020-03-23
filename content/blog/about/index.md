@@ -38,11 +38,11 @@ The joy of programming drives me to do a lot more work than what is expected of 
 
 I joined Foodnome in Nov 2018 as a co-founder/tech lead, and started to rebuild the entire platform from the ground up. What attracted me in the beginning like be my own boss, work whenever and wherever, make lots of money in the end and etc eventually faded away (I do hope they will become true some day 🤞🏽). The reasons that kept me here after one and half years were my responsibilities in my role and my team.
 
-It is difficult to pick the most important reasons why I stayed, but if I have to, I would pick responsibility. Before I even leave my bed in the morning, I could never fight the urge to check on my phone to see if there are any updates. That usually evolves me into grabbing my computer that is sitting next to the bed and moving it to my office at home. I would sit by my computer and eventually drag myself to brush my teeth and walk Roxy by noon. You may say that I am un-health, but I find joy doing what I do. I understand without the work I do, the company would not be running smoothly. My co-workers depend on the completion of my work as much as I rely on them to finish theirs.
+Before I even leave my bed in the morning, I could never fight the urge to check on my phone to see if there are any updates. Picking up the phone usually evolves me into grabbing my computer that is sitting next to the bed and making a move towards my home office. I would sit by my computer and hopefully find a time to drag myself to brush my teeth and walk Roxy 🐶 by noon. I find joy doing what I do. I understand without the work I do, the company would not be running smoothly. My co-workers depend on the completion of my work as much as I rely on them to finish theirs.
 
-Second reason would be the team. Working in a startup is tough, everyone is under constant stress. I feel lucky enough to have an amazing group of friends that I could trust and share our differences. Believe me, we argue a lot, but in the end we resolve these differences to something productive to the growth of our company.
+Working in a startup is tough, everyone is under constant stress. I feel lucky enough to have an amazing group of friends that I could trust and share our differences. Believe me, we argue a lot, but in the end we resolve these differences to push the growth of our company.
 
-As of March 2020, we still maintain a small team, but are actively looking for more devs. If you are interested, send me a message on [Twitter](https://twitter.com/leog0esger).
+As of April 2020, we still maintain a small team, but are actively looking for more devs. If you are interested, send me a message on [Twitter](https://twitter.com/leog0esger).
 
 ## Other fun facts
 
