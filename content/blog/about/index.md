@@ -6,43 +6,56 @@ status: 'draft'
 
 ![Noelle, Roxy and I](./fam.png)
 
-## Growing up
+## About me
 
-I grew up in China in a small town [牡丹江](https://en.wikipedia.org/wiki/Mudanjiang) in northeast China near Russia and North Korea. My mom is a hard working business woman who grew a successful business teaching English to middle/high school students. She started it off by tutoring our neighbors and eventually built a 300+ students school at the heart of the city. She repeated the same process once she moved to the US, but in early childhood development. She never stopped working, and she wouldn't even if she could. I did not truly understand or appreciate how much her successful stories and work ethics have shaped me until I was in my 20s while starting my own career.
+I am a PhD candidate in the Water Management Lab at UC Davis, where my research in hydrology focuses on streamflow analysis and ecological response to changes in flowing water environments. I started my career in water resources at the California State Water Resources Control Board, where I developed water quality policy to protect urban waterways from pesticide runoff. I recently transplanted to Reno, NV, where I am planning my next chapter of research on the Lower Truckee River and its riparian ecology. In my free time I enjoy exploring my Sierras backyard with my husband Leo - on bike, foot, skis, or climbing ropes! 
 
-During the years that my mom was starting her business teaching English in China, I would sit in on all her classes. I remember the days when I would raise up my hand to answer the toughest grammar question those high school students could not even answer. She used to tell the story that I was the first teacher most students would get when they first come to her school, because I was an "expert" teaching the English alphabet. Many years later in the US, when I stood in front of my classroom full of students teaching web development, I always felt the sense of belonging and familiarity. It felt like I have been here for many years. I was confident to communicate difficult ideas, lead students who were lost and sympathize with those who were falling behind. Since then, I have transitioned myself working in a startup leading a small group of developers, and those same exact set of skills have benefited me immensely.
+## Research
 
-## Coming to the US
+### Environmental flow management and the Functional Flows Calculator
+Environmental flows refer to an allocation of water from a river that is meant to stay in the river, for the protection of aquatic ecosystems. This is in contrast to water allocations for human needs, such as water for agriculture, cities, or industry. By setting environmental flows, we seek to answer a central question: how much water does a river need, in order to protect aquatic ecosystems? In this research, I helped answer this big question of "how much water" through creation of a software tool that analyzes daily streamflow data through the lens of functional flows, a paradigm of water management that focuses on key aspects of the annual flow regime known to serve ecological functions. Through a combination of signal processing methods grounded in hydro-ecological science, the tool my team and I developed calculates ecologically-relevant flow metrics that can be used to design environmental flow regimes. This project can be explored in-depth at eFlows.ucdavis.edu, where users can explore and visualize the natural hydrology of streams in California. 
 
-You know you can run `git reset --hard HEAD` on a git repo to reset all the current changes you no longer need? That's how I felt leaving China to the US, and what was being reset was my entire life.
+### Streamflow patterns in a changing climate
+As climate change affects temperature and precipitation patterns globally, natural patterns in the magnitude and timing of streamflow are also affected. In the western US, aquatic species have adapted over millenia to patterns of extreme seasonal highs and lows, resulting from dry summers and wet winters. In California, we have already begun to see historic patterns of streamflow begin to shift. In mountainous areas such as the Sierra Nevada, warming temperatures are causing precipitation to fall more as rain instead of snow, which changes streamflow by reducing the seasonal snowmelt pulse. Precipitation events are also becoming less frequent but more severe in some areas, which increases the flashiness of streamflow. These changes in streamflow have serious consequences from both a water management perspective, for water supply and flood control, as well as ecological implications. In this project, I use the functional flows calculator developed in my previous research to quantify changes to seasonal streamflow patterns across the diversity of streams found in California. I use this approach both to search for patterns of change across the past century, and to asses potential future changes through analysis of modeled streamflow extending to 2100.  
 
-On the way back to the soon-to-be home after landing in the US, I was rather underwhelmed by what they were calling the "the cradle of technologies", Silicon Valley. My perception of big tall towers hoving over the sky was replaced by these tiny and unimpressive buildings. That was not the only surprise for the upcoming months. You may not like this, but it was rather convenient that the majority of the Chinese citizens do not have any say in the politics. On the other hand, the US was the total opposite in 2008. It seemed that I could not carry a small conversation without hearing about the upcoming election. In the beginning I pretend to listen using my very limited vocabularies, and try to memorize some key words and phrases to Google them at night. Studying these words and phrases were easy, but I always end up spending long hours reading the stories behind them and catching up or falling into the fascinating but crude American history. Towards the end of the third month, I could finally understand most words in a sentence and the significant for a black man to become the president.
+### Cottonwood-streamflow interactions on the Lower Truckee River, Nevada
+I plan to study cottonwood trees along the banks of the Lower Truckee River in Nevada, and how past and current water management practices have affected their growth and survival. Understanding these trees is important because cottonwoods support the entire Lower Truckee River environment by stabilizing banks and providing wildlife habitat. Like most major rivers in the western United States, the Truckee River is a highly contested water resource that must balance competing interests from municipal, agricultural, and environmental water users. As a result of these multiple needs, the ecosystem of the Lower Truckee River has been highly altered over the past century, including removal of water from the river for irrigation and straightening of sections of channel for flood control. This alteration has significant consequences because the cottonwood trees of the Lower Truckee River require a continual source of water for survival. No one has yet determined the status of mature cottonwood trees along the river, and how decades of river management have affected their growth and survival. Using a combination of field methods, spatial analysis, and streamflow analysis with the functional flows calculator, I hope to prove that flow management on the river has a direct effect on the health of cottonwoods, to help point the way towards improved flow management to support cottonwoods and their river ecosystem.
 
-> "You must be shapeless, formless, like water. When you pour water in a cup, it becomes the cup. When you pour water in a bottle, it becomes the bottle. When you pour water in a teapot, it becomes the teapot. Water can drip and it can crash. Become like water my friend." - Bruce Lee
+##  Publications and products
 
-I embraced myself being in this new environment. Everyday there was a new challenge, and another opportunity for me to mold myself. I push myself to become more like water, by adapting new environments in life and work.
+*Patterson, N. K.*, Lane, B. A., Sandoval-Solis, S., Pasternack, G. B., Yarnell, S. M., and Qiu, Y. A Hydrologic feature detection algorithm to quantify seasonal components of flow regimes. 2020. Journal of Hydrology, 585, 1–12. [DOI: 10.1016/j.jhydrol.2020.124787](https://doi.org/10.1016/j.jhydrol.2020.124787)
 
-## Becoming a software engineer
+Dahlke, H., LaHue, G., Mautner, M., Murphy, N., *Patterson, N.*, Waterhouse, H., Yang, F., Foglia, L. Managed Aquifer Recharge as a Tool to Enhance Sustainable Groundwater Management in California: Examples from Field and Modeling Studies. 2018. In Advanced Tools for Integrated Water Resources Management, Volume 3 1st Edition. Elsevier Academic Press. [DOI: 10.1016/bs.apmp.2018.07.003](https://doi.org/10.1016/bs.apmp.2018.07.003)
 
-![Teaching at UC Davis](./teaching.jpeg)
+[eFlows website](https://eflows.ucdavis.edu/)
+Website featuring visualization and analysis tools to explore California's natural hydrology, hosting a webtool version of the functional flows calculator for streamfloe analsis. I contributed to the conceptualization of the website and the data and code supporting the website's features. 
 
-It surprises me everytime when I think about how long it took me to switch my career into software development. After graduating from UCD as an aerospace engineer, I worked in the field of [metrology](https://en.wikipedia.org/wiki/Metrology) for a couple years. The job only fulfilled me when it was challenging. What seemed interesting in the beginning, eventually became dull and boring. What I needed was a constant challenge, and in software I could always find that. Once I discovered programming, I could not put it down. From learning HTML/CSS, to data structures, and eventually landed myself as an instructor position in UC Davis coding bootcamp within one year since I first my transition.
+## Curriculum Vitae
+
+[View my CV here.](./content/blog/about/CV_2020.pdf) 
 
 > "Do a huge volume of work. Put yourself on a deadline so that every week or every month you know you're going to finish one story. It is only by going through a volume of work that you're going to catch up and close that gap. And the work you're making will be as good as your ambitions." - Ira Glass
 
-The joy of programming drives me to do a lot more work than what is expected of me. I believe that is how I could be good at it, through a large volume of work to push myself to become as good as it can be.
+## Outdoor Adventures
+When not working on my research, I try to continue learning and developing myself through engaging in challenging, formative outdoor pursuits. I have always loved the idea of adventure, and seeking it wherever possible. My first forays into to outdoors began in the summer after my first year in college, when I took a summer job roomskeeping in Yosemite National Park. I decided I would take whatever job necessary to allow me to live in an oustanding natural setting, though I never would have expected the impact this summer in Yosemite had on the rest of my life. It was here I learned how to backpack in the wilderness, rock climb, and enjoy the outdoors independently. I hiked every possible trail I could access from my home in Yosemite Valley, and the next summer I returned to do it again. The ardent love for the outdoors I fostered in Yosemite influenced the direction of my studies and career in water resources, and inspired many other outdoor adventures to follow. Below are a few of my favorites!  
 
-## Joining a start-up
+### John Muir Trail
+![Leo and I on the Trail](./JMT.jpg)
+My husband Leo and I hiked the John Muir Trail for our honeymoon in 2016. After the hectic experience of planning a wedding, it was a great escape to hike and camp in outstanding scenery for three weeks! 
 
-![Foodnome family](./foodnome.jpg)
+### Northwest Bike Tour
+Before starting grad school, I took an extended bike tour of the northwest, starting from Seattle and travelling east to Glacier National Park, and then back west to Portland. The journey of 1400 miles took three weeks, and gave me the opportunity to meet many interesting people and experience both urban and rural parts of the country from up-close. 
 
-I joined Foodnome in Nov 2018 as a co-founder/tech lead, and started to rebuild the entire platform from the ground up. What attracted me in the beginning like be my own boss, work whenever and wherever, make lots of money in the end and etc eventually faded away (I do hope they will become true some day 🤞🏽). The reasons that kept me here after one and half years were my responsibilities in my role and my team.
+### Evolution Traverse
 
-Before I even leave my bed in the morning, I could never fight the urge to check on my phone to see if there are any updates. Picking up the phone usually evolves me into grabbing my computer that is sitting next to the bed and making a move towards my home office. I would sit by my computer and hopefully find a time to drag myself to brush my teeth and walk Roxy 🐶 by noon. I find joy doing what I do. I understand without the work I do, the company would not be running smoothly. My co-workers depend on the completion of my work as much as I rely on them to finish theirs.
 
-Working in a startup is tough, everyone is under constant stress. I feel lucky enough to have an amazing group of friends that I could trust and share our differences. Believe me, we argue a lot, but in the end we resolve these differences to push the growth of our company.
+### Minaret Traverse 
 
-As of April 2020, we still maintain a small team, but are actively looking for more devs. If you are interested, send me a message on [Twitter](https://twitter.com/leog0esger).
+## Contact
+nkpatterson@ucdavis.edu
+[Researchgate profile](https://www.researchgate.net/profile/Noelle_Patterson)
+[Linkedin](https://www.linkedin.com/in/noelle-patterson/)
+[Github](https://github.com/NoellePatterson)
 
 ## Other fun facts
 
