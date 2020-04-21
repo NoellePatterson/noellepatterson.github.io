@@ -4,7 +4,7 @@ date: '2020-02-29T22:12:03.284Z'
 status: 'draft'
 ---
 
-![Noelle, Roxy and I](./fam.png)
+![](./bio_pic.jpg)
 
 ## About me
 
@@ -19,6 +19,7 @@ Environmental flows refer to an allocation of water from a river that is meant t
 As climate change affects temperature and precipitation patterns globally, natural patterns in the magnitude and timing of streamflow are also affected. In the western US, aquatic species have adapted over millenia to patterns of extreme seasonal highs and lows, resulting from dry summers and wet winters. In California, we have already begun to see historic patterns of streamflow begin to shift. In mountainous areas such as the Sierra Nevada, warming temperatures are causing precipitation to fall more as rain instead of snow, which changes streamflow by reducing the seasonal snowmelt pulse. Precipitation events are also becoming less frequent but more severe in some areas, which increases the flashiness of streamflow. These changes in streamflow have serious consequences from both a water management perspective, for water supply and flood control, as well as ecological implications. In this project, I use the functional flows calculator developed in my previous research to quantify changes to seasonal streamflow patterns across the diversity of streams found in California. I use this approach both to search for patterns of change across the past century, and to asses potential future changes through analysis of modeled streamflow extending to 2100.  
 
 ### Cottonwood-streamflow interactions on the Lower Truckee River, Nevada
+![Cottonwoods along the Lower Truckee River, Nevada](./cottonwood.jpeg)
 I plan to study cottonwood trees along the banks of the Lower Truckee River in Nevada, and how past and current water management practices have affected their growth and survival. Understanding these trees is important because cottonwoods support the entire Lower Truckee River environment by stabilizing banks and providing wildlife habitat. Like most major rivers in the western United States, the Truckee River is a highly contested water resource that must balance competing interests from municipal, agricultural, and environmental water users. As a result of these multiple needs, the ecosystem of the Lower Truckee River has been highly altered over the past century, including removal of water from the river for irrigation and straightening of sections of channel for flood control. This alteration has significant consequences because the cottonwood trees of the Lower Truckee River require a continual source of water for survival. No one has yet determined the status of mature cottonwood trees along the river, and how decades of river management have affected their growth and survival. Using a combination of field methods, spatial analysis, and streamflow analysis with the functional flows calculator, I hope to prove that flow management on the river has a direct effect on the health of cottonwoods, to help point the way towards improved flow management to support cottonwoods and their river ecosystem.
 
 ##  Publications and products
@@ -27,7 +28,7 @@ I plan to study cottonwood trees along the banks of the Lower Truckee River in N
 
 Dahlke, H., LaHue, G., Mautner, M., Murphy, N., *Patterson, N.*, Waterhouse, H., Yang, F., Foglia, L. Managed Aquifer Recharge as a Tool to Enhance Sustainable Groundwater Management in California: Examples from Field and Modeling Studies. 2018. In Advanced Tools for Integrated Water Resources Management, Volume 3 1st Edition. Elsevier Academic Press. [DOI: 10.1016/bs.apmp.2018.07.003](https://doi.org/10.1016/bs.apmp.2018.07.003)
 
-[eFlows website](https://eflows.ucdavis.edu/)
+[eFlows website](https://eflows.ucdavis.edu/) <br />
 Website featuring visualization and analysis tools to explore California's natural hydrology, hosting a webtool version of the functional flows calculator for streamfloe analsis. I contributed to the conceptualization of the website and the data and code supporting the website's features. 
 
 ## Curriculum Vitae
@@ -47,20 +48,16 @@ My husband Leo and I hiked the John Muir Trail for our honeymoon in 2016. After 
 Before starting grad school, I took an extended bike tour of the northwest, starting from Seattle and travelling east to Glacier National Park, and then back west to Portland. The journey of 1400 miles took three weeks, and gave me the opportunity to meet many interesting people and experience both urban and rural parts of the country from up-close. 
 
 ### Evolution Traverse
-
+![](./Evo.jpg)
+The Evolution Traverse is an 8-mile ridgeline climb in the high sierras, topping nine 13,000 ft  peaks in the Evolution Range including Mt. Darwin at 13,831 ft. Portions of the climb are technical and steep, reaching up to 5.9 grade climbing, while many sections consist of 3rd - 4th class scrambling over loose rock. Leo and I climbed this route in 2017 for our 1st wedding anniversary, after being inspired by views of the Evolution Range on our honeymoon the year before. The route took us 3 days, with a day of approach on either side for a five day adventure. This remains on of our wildest and most remote climbing adventures yet! 
 
 ### Minaret Traverse 
+<!-- ![](./Minaret.jpeg) -->
+Leo and I took on the Minaret Traverse for our third wedding anniversary, solidly setting our habit of doing long risky climbs for our wedding anniversaries. The Minaret Traverse is a remote, seldom-climbed route along a ridgeline of jagged metamorphic peaks in the high sierra near Mammoth Mountain. This climb took us three days to complete, with two nights bivied in ridgetop alcoves along the crest of the peaks. The rock was sharp, loose, and scary, and I remember this as the wildest anniversary I've survived to date! 
 
 ## Contact
-nkpatterson@ucdavis.edu
-[Researchgate profile](https://www.researchgate.net/profile/Noelle_Patterson)
-[Linkedin](https://www.linkedin.com/in/noelle-patterson/)
-[Github](https://github.com/NoellePatterson)
+- nkpatterson@ucdavis.edu
+- [Researchgate profile](https://www.researchgate.net/profile/Noelle_Patterson)
+- [Linkedin](https://www.linkedin.com/in/noelle-patterson/)
+- [Github](https://github.com/NoellePatterson)
 
-## Other fun facts
-
-![Roxy and I](./me.jpg)
-
-- I climb a lot with my wife Noelle, and we first met in [Rocknasium](http://www.rocknasium.com/). We mostly do bouldering or trad.
-- Climbed [The Nose](<https://en.wikipedia.org/wiki/The_Nose_(El_Capitan)>) in "a day" (27 hrs, one push).
-- Private pilot, I got my license a few years back in [Cal Aggie Flying Farmers](https://www.calaggieflyers.com/). Although it is expensive to fly, I try to keep myself up to date at the Reno airport.

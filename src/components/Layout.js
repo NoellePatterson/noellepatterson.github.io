@@ -44,7 +44,7 @@ class Layout extends React.Component {
                 {title}
               </Link>
             </h1>
-            <a
+            {/* <a
               href="https://twitter.com/leog0esger"
               style={{
                 textDecoration: 'none',
@@ -57,7 +57,7 @@ class Layout extends React.Component {
                 src={require('./twitter.png')}
                 style={{ width: 30, height: 30, margin: 0 }}
               />
-            </a>
+            </a> */}
           </div>
           <ToggleBtn />
         </div>

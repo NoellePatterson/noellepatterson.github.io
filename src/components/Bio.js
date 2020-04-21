@@ -19,7 +19,7 @@ function Bio() {
             }}
           >
             <p>
-              Leo Qiu lives, codes and climbs in Reno with Noelle and Roxy 🐶.{' '}
+              Welcome to my website, where I share my hydrology research and recent adventures! {' '} <br/ >
               <Link to="about">More about me</Link>
             </p>
           </div>

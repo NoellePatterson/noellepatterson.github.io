@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Leogoesger`,
-    author: `Leo Qiu`,
-    description: `A blog post on all things web development related. React, Typescript, Graphql, Express, Go and etc`,
+    title: `Noelle Patterson`,
+    author: `Noelle Patterson`,
+    description: `A personal website for me to share my research and adventures`,
     siteUrl: `https://gatsby-starter-blog-mdx-demo.netlify.com/`,
     social: {
       twitter: `leog0esger`,
