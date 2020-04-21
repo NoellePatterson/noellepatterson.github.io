@@ -1,15 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
 import { rhythm, scale } from '../utils/typography'
 import { ToggleBtn } from './ThemeToggle'
-
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let header
-
     if (location.pathname === rootPath) {
       header = (
         <div
@@ -44,7 +41,7 @@ class Layout extends React.Component {
                 {title}
               </Link>
             </h1>
-            {/* <a
+            <a
               href="https://twitter.com/leog0esger"
               style={{
                 textDecoration: 'none',
@@ -57,7 +54,7 @@ class Layout extends React.Component {
                 src={require('./twitter.png')}
                 style={{ width: 30, height: 30, margin: 0 }}
               />
-            </a> */}
+            </a>
           </div>
           <ToggleBtn />
         </div>
@@ -105,7 +102,35 @@ class Layout extends React.Component {
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
-        {header}
+        <div
+          style={{
+            position: 'sticky',
+            top: 0,
+            zIndex: 10,
+            display: 'flex',
+            justifyContent: 'flex-end',
+            paddingBottom: 12,
+            backgroundColor: 'var(--bg)',
+          }}
+        >
+{/* Uncomment block below for tab button template!  */}
+          {/* <a style={{ marginRight: 4, cursor: 'pointer' }}>Link 1</a> |
+          <a style={{ margin: '0px 4px', cursor: 'pointer' }}>Link 2</a>|
+          <a style={{ margin: '0px 4px', cursor: 'pointer' }}>Link 3</a>|
+          <a style={{ margin: '0px 4px', cursor: 'pointer' }}>Link 4</a> */}
+        </div>
+        <div
+          style={{
+            position: 'sticky',
+            top: 40,
+            backgroundColor: 'var(--bg)',
+            paddingBottom: 6,
+            zIndex: 10,
+            paddingBottom: 4,
+          }}
+        >
+          {header}
+        </div>
         {children}
         <footer>
           © {new Date().getFullYear()}, Built with
@@ -118,5 +143,4 @@ class Layout extends React.Component {
     )
   }
 }
-
 export default Layout

@@ -8,7 +8,7 @@ status: 'draft'
 
 ## About me
 
-I am a PhD candidate in the Water Management Lab at UC Davis, where my research in hydrology focuses on streamflow analysis and ecological response to changes in flowing water environments. I started my career in water resources at the California State Water Resources Control Board, where I developed water quality policy to protect urban waterways from pesticide runoff. I recently transplanted to Reno, NV, where I am planning my next chapter of research on the Lower Truckee River and its riparian ecology. In my free time I enjoy exploring my Sierras backyard with my husband Leo - on bike, foot, skis, or climbing ropes! 
+Hello! I am a PhD candidate in the Water Management Lab at UC Davis. My research in hydrology focuses on streamflow analysis and ecological response to changing environments. I started my water career at the California State Water Resources Control Board  developing water quality policy to protect urban waterways from pesticide runoff. I recently transplanted to Reno, NV, where I am planning my next chapter of research on the Lower Truckee River and its riparian ecology. In my free time I enjoy exploring my Sierras backyard with my husband Leo - on bike, foot, skis, or climbing ropes! 
 
 ## Research
 
